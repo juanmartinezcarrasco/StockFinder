@@ -15,7 +15,8 @@
             android:layout_height="60sp"
             android:text="Detalle del Artículo"
             android:textSize="30sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:textColor="#000000"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -45,15 +46,17 @@
                         android:id="@+id/idTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="ID:"
+                        android:text="ID: "
                         android:textSize="16sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:textColor="#000000"/>
 
                     <TextView
                         android:id="@+id/id"
                         android:layout_width="171dp"
                         android:layout_height="wrap_content"
-                        android:textSize="16sp" />
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
                 </LinearLayout>
 
                 <!-- Nombre -->
@@ -66,16 +69,18 @@
                         android:id="@+id/nombreTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Nombre:"
+                        android:text="Nombre: "
                         android:textSize="16sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:textColor="#000000"/>
 
                     <TextView
                         android:id="@+id/nombre"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:lines="2"
-                        android:textSize="16sp" />
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
                 </LinearLayout>
 
                 <!-- Descripción -->
@@ -88,16 +93,18 @@
                         android:id="@+id/descriptionTitle"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Descripción:"
+                        android:text="Descripción: "
                         android:textSize="16sp"
-                        android:textStyle="bold" />
+                        android:textStyle="bold"
+                        android:textColor="#000000"/>
 
                     <TextView
                         android:id="@+id/description"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:lines="4"
-                        android:textSize="16sp" />
+                        android:textSize="16sp"
+                        android:textColor="#000000"/>
                 </LinearLayout>
 
 
@@ -116,15 +123,17 @@
                 android:id="@+id/categoriaTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Categoría:"
+                android:text="Categoría: "
                 android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="#000000"/>
 
             <TextView
                 android:id="@+id/categoria"
                 android:layout_width="298dp"
                 android:layout_height="wrap_content"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                android:textColor="#000000"/>
         </LinearLayout>
 
         <!-- Talla -->
@@ -137,15 +146,17 @@
                 android:id="@+id/tallaTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Talla:"
+                android:text="Talla: "
                 android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="#000000"/>
 
             <TextView
                 android:id="@+id/talla"
                 android:layout_width="338dp"
                 android:layout_height="wrap_content"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                android:textColor="#000000"/>
         </LinearLayout>
 
         <!-- Stock -->
@@ -158,15 +169,17 @@
                 android:id="@+id/stockTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Stock:"
+                android:text="Stock: "
                 android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="#000000"/>
 
             <TextView
                 android:id="@+id/stock"
                 android:layout_width="328dp"
                 android:layout_height="wrap_content"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                android:textColor="#000000"/>
         </LinearLayout>
 
         <!-- Precio -->
@@ -179,15 +192,17 @@
                 android:id="@+id/precioTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Precio:"
+                android:text="Precio: "
                 android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="#000000"/>
 
             <TextView
                 android:id="@+id/precio"
                 android:layout_width="329dp"
                 android:layout_height="match_parent"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                android:textColor="#000000"/>
         </LinearLayout>
 
         <!-- Composición -->
@@ -195,22 +210,24 @@
             android:layout_width="381dp"
             android:layout_height="wrap_content"
             android:layout_gravity="start"
-            android:orientation="horizontal"> <!-- Align content to the start (left) -->
+            android:orientation="horizontal">
 
             <TextView
                 android:id="@+id/composicionTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Composición:"
+                android:text="Composición: "
                 android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="#000000"/>
 
             <TextView
                 android:id="@+id/composicion"
                 android:layout_width="282dp"
                 android:layout_height="wrap_content"
                 android:lines="1"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                android:textColor="#000000"/>
         </LinearLayout>
 
         <!-- Proveedor -->
@@ -218,21 +235,23 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_gravity="start"> <!-- Align content to the start (left) -->
+            android:layout_gravity="start">
 
             <TextView
                 android:id="@+id/proveedorTitle"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Proveedor:"
+                android:text="Proveedor: "
                 android:textSize="16sp"
-                android:textStyle="bold" />
+                android:textStyle="bold"
+                android:textColor="#000000"/>
 
             <TextView
                 android:id="@+id/proveedor"
                 android:layout_width="302dp"
                 android:layout_height="match_parent"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                android:textColor="#000000"/>
         </LinearLayout>
 
         <!-- Botones -->
