@@ -285,7 +285,17 @@ public class Lista extends AppCompatActivity {
 
         viewcreator(datosfiltrados);
     }
+    public void CerrarSesion(MenuItem item) {
+        // Borrar SharedPreferences
+        SharedPreferences prefs = getSharedPreferences("PreferenciasUsuario", MODE_PRIVATE);
+        SharedPreferences.Editor editor = prefs.edit();
+        editor.clear(); // Esto eliminará todos los datos de SharedPreferences
+        editor.apply();
 
-
-
+        // Iniciar Login
+        Intent intent = new Intent(this, Login.class);
+        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK); // Esto limpiará la pila de actividades
+        startActivity(intent);
+        finish(); // Esto cerrará la actividad actual
+    }
 }
