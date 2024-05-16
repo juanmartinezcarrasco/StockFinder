@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">StockFinder</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">StockFinder</string>
+    <string name="nav_header_subtitle">User</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_Home">Menú Principal</string>
+    <string name="menu_Escaner">Escáner QR/Barras</string>
+    <string name="menu_ListaCompleta">Lista Completa de Artículos</string>
+    <string name="title_activity_lector_codigo_barras">LectorCodigoBarras</string>
+    <string name="lector_de_codigo_de_barras">Lector de Código de Barras</string>
+    <string name="lector_qr">Lector de QR</string>
+    <string name="lector_id">Introduzca ID del artículo</string>
+    <string name="title_activity_lista">Lista</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="username">Nombre de Usuario</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar Sesión</string>
+
+
+</resources>
